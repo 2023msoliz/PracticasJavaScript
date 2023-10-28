@@ -20,6 +20,7 @@ while(true){
     
     if(numero == numRandom) {
         alert("Obtingut en " + intents + " intents");
+        break;
     } else if (numero > numRandom){
         alert("Menor")
     } else {
