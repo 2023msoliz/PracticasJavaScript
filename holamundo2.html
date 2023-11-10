@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+  <input type="text" id="input1">
+    <button onclick="myFunction()">
+      Button1
+    </button>
+    <input type="text" id="input2">
+    <button onclick="myFunction()">
+      Button2
+    </button>
+
+<script>
+let fibonacci = [0, 1];
+let numero = 0;
+
+function myFunction() {
+      for (i = 0; i <=20; i++ ){
+        numero = fibonacci.at(-1) + fibonacci.at(-2)
+        fibonacci.push(numero);
+      }
+}
+
+myFunction()
+console.log(fibonacci)
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="año">
+    <button onclick="myFunction()">
+    <input type="text" id="mes">
+    <button onclick="myFunction()">
+    <input type="text" id="dia">
+    <button onclick="myFunction()">Button</button>
+
+<script>
+function myFunction(){
+    const a = document.getElementById("año").value;
+    const b = document.getElementById("mes").value;
+    const c = document.getElementById("dia").value;
+var data = new Date(a + " - " + b + " - " + c);
+console.log((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
+}
+myFunction()
+    console.log(data);
+</script>
+
+</body>
+</html>
